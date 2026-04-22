@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int x=5;
+    int y=88;
+    char c='B';
+    int d=x+y+c;
+    printf("%d",(x++)+(y++)+(--c)+d);
+
+    return 0;
+}
